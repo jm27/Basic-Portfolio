@@ -1,0 +1,136 @@
+html{
+    margin: 0;
+    padding: 0;
+    background: gray;
+    background-image: url(../images/psychedelic_pattern.png);
+    height: 50em;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+color: #777777;
+}
+
+#name{
+    background: #4aaaa5;
+    margin-left: 5%;
+    width:25%;
+    padding: 10px;
+    color: white;
+    border: 2px solid teal;
+    text-align: center;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.navbar{
+    float: right;
+    padding: 10px;
+    text-align: right;
+}
+
+section{
+    background:#ffffff;
+    border: 2px solid #dddddd;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8em;
+}
+
+#portfolio{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    float: left;
+    width:95%;
+    padding: 10px;
+    color: #4aaaa5;
+    border: 2px solid white;
+    text-align: left;
+    border-bottom: 4px solid gray;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+article{
+    margin-left: 1em;
+}
+
+
+
+
+
+.container {
+    position: relative;
+    color: white;
+  }
+  img{
+      margin: 16px;
+
+  }
+  #link {
+    position: absolute;
+    bottom: 14em;
+    left: 1em;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 3px 35px 3px 35px
+  }
+#link2 {
+    position: absolute;
+    bottom: 14em;
+    left: 12.65em;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 3px 36px 3px 36px;
+}
+
+#link3 {
+    position: absolute;
+    bottom: 14em;
+    left: 24.3em;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 3px 36px 3px 35px;
+  }
+
+  #link4 {
+    position: absolute;
+    bottom: 14em;
+    left: 36em;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 3px 36px 3px 35px;
+}
+  
+  #link5 {
+    position: absolute;
+    bottom: 3em;
+    left: 16px;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 3px 36px 3px 35px;
+  }
+
+footer{
+    width: 100%;
+    padding-top: 1em;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    text-align: center;
+    margin-top: 3em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 3%;
+}
+
