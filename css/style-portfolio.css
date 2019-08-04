@@ -11,6 +11,12 @@ font-family: Arial, Helvetica, sans-serif;
 color: #777777;
 }
 
+.nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+
 #name{
     background: #4aaaa5;
     margin-left: 5%;
@@ -64,66 +70,73 @@ article{
     margin-left: 1em;
 }
 
-
-
-
-
 .container {
     position: relative;
-    color: white;
+    color: #ffffff;
   }
-  img{
+img{
+    
       margin: 16px;
 
-  }
-  #link {
+}
+#link {
     position: absolute;
     bottom: 14em;
     left: 1em;
     background: #4aaaa5;
     text-align: center;
-    padding: 3px 35px 3px 35px
-  }
-#link2 {
-    position: absolute;
-    bottom: 14em;
-    left: 12.65em;
-    background: #4aaaa5;
-    text-align: center;
-    padding: 3px 36px 3px 36px;
+    padding: 3px 40px 3px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
 }
-
-#link3 {
-    position: absolute;
-    bottom: 14em;
-    left: 24.3em;
-    background: #4aaaa5;
-    text-align: center;
-    padding: 3px 36px 3px 35px;
-  }
-
-  #link4 {
-    position: absolute;
-    bottom: 14em;
-    left: 36em;
-    background: #4aaaa5;
-    text-align: center;
-    padding: 3px 36px 3px 35px;
-}
-  
-  #link5 {
+#linkrps{
     position: absolute;
     bottom: 3em;
     left: 16px;
     background: #4aaaa5;
     text-align: center;
-    padding: 3px 36px 3px 35px;
+    padding: 3px 1px 3px 0px;
+    
+}
+
+#linkrpg {
+    position: absolute;
+    bottom: 3em;
+    left: 12.65em;
+    background: #4aaaa5;
+    text-align: center;
+    padding:3px 33px 3px 34px}
+
+#linkt {
+    position: absolute;
+    bottom: 3em;
+    left: 24.3em;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 3px 31px 3px 32px;
   }
+
+  #linkr {
+    position: absolute;
+    bottom: 3em;
+    left: 36em;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 3px 8px 3px 8px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+  
 
 footer{
     width: 100%;
     padding-top: 1em;
-    color: white;
+    color: #ffffff;
     border-top: 8px solid #4aaaa5;
     background-color:#666666;
     text-align: center;
